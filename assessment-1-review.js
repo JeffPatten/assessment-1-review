@@ -1,3 +1,11 @@
+// WHAT WAS COVERED IN WEEK 1
+// DATA TYPES
+// VARIABLES
+// CONDITIONALS (If/else if)
+// FOR LOOPS and WHILE LOOPS
+// ARRAYS - accessing values in an array, simple methods (.push, .pop, .shift, .unshift, .splice, .slice)
+// MATH OPERATORS
+
 /* ----------------------------------------------DATA TYPES -------------------------------------------------------------------- */
 
 let aString = ''
@@ -7,6 +15,18 @@ let anUndefined          // undefined because the variable hasn't a value assign
 let aNull = null
 let anArray = []
 
+
+// ------------------------------------------------- OPERATORS ------------------------------------------------------------------
+
+let secondNum = 1
+/*
+ + for addition
+
+ +=  ->  Adding and assign a value. Ex   aNumber += secondNumber  is the same thing as  aNumber = aNumber + secondNum.  
+                                    secondNum += aNumber  is the same thing as  secondNum = secondNum + aNumber
+
+
+*/
 // --------------------------------------------  VARIABLES  ------------------------------------------------------------------- //
 
 let noValueAssigned
@@ -26,13 +46,16 @@ let somethingIsFalse = false
 
 
 
-// if (somethingIsFalse) {
-//     console.log('The value is false')
-// } else if (somethingIsTrue) {
-//     console.log("The value is true")
-// } else {
-//     console.log('This is the default code if no coditions are true')
-// }
+if (somethingIsFalse) {
+    console.log('The value is false')
+} else if (somethingIsTrue) {
+    console.log("The value is true")
+} else {
+    console.log('This is the default code if no coditions are true')
+}
+
+
+
 
 for (let i = 0; i < 6; i++) { // i = 0, i = 1, i = 2, 
 
@@ -40,9 +63,10 @@ for (let i = 0; i < 6; i++) { // i = 0, i = 1, i = 2,
 
     console.log(someNumber+10)
 
-
-
 }
+
+
+
 
 let newArr =['donuts', 'tacos', 'pizza']
 for (let i = 0; i < newArr.length; i++) {
