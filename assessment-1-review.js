@@ -22,16 +22,31 @@ const nameYouGiveTheVariable2 = 'some value'
 let somethingIsTrue = true
 let somethingIsFalse = false
 
-if (somethingIsFalse) {
-    console.log('The value is false')
-} else if (somethingIsTrue) {
-    console.log("The value is true")
-} else {
-    console.log('This is the default code if no coditions are true')
+// console.log(somethingIsTrue)
+
+
+
+// if (somethingIsFalse) {
+//     console.log('The value is false')
+// } else if (somethingIsTrue) {
+//     console.log("The value is true")
+// } else {
+//     console.log('This is the default code if no coditions are true')
+// }
+
+for (let i = 0; i < 6; i++) { // i = 0, i = 1, i = 2, 
+
+    let someNumber = 3
+
+    console.log(someNumber+10)
+
+
+
 }
 
-for (let i = 0; i < 10; i++) {
-    console.log(i)
+let newArr =['donuts', 'tacos', 'pizza']
+for (let i = 0; i < newArr.length; i++) {
+
 }
 
 // ----------------------------------------------------- ARRAYS --------------------------------------------------------------------- //
